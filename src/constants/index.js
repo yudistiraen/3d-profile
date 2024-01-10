@@ -8,21 +8,16 @@ import {
     html,
     css,
     reactjs,
-    redux,
+    vue,
     tailwind,
-    nodejs,
-    mongodb,
     git,
     figma,
-    docker,
-    meta,
-    starbucks,
-    tesla,
-    shopify,
+    bce,
+    indodax,
     carrent,
     jobit,
     tripguide,
-    threejs,
+    defauilt
   } from "../assets";
   
   export const navLinks = [
@@ -42,15 +37,15 @@ import {
   
   const services = [
     {
-      title: "Web Developer",
+      title: "Front End Developer",
       icon: web,
     },
     {
-      title: "React Native Developer",
+      title: "ReactJS Developer",
       icon: mobile,
     },
     {
-      title: "Backend Developer",
+      title: "VueJS Developer",
       icon: backend,
     },
     {
@@ -81,24 +76,12 @@ import {
       icon: reactjs,
     },
     {
-      name: "Redux Toolkit",
-      icon: redux,
+      name: "VueJS",
+      icon: vue,
     },
     {
       name: "Tailwind CSS",
       icon: tailwind,
-    },
-    {
-      name: "Node JS",
-      icon: nodejs,
-    },
-    {
-      name: "MongoDB",
-      icon: mongodb,
-    },
-    {
-      name: "Three JS",
-      icon: threejs,
     },
     {
       name: "git",
@@ -108,60 +91,41 @@ import {
       name: "figma",
       icon: figma,
     },
-    {
-      name: "docker",
-      icon: docker,
-    },
   ];
   
   const experiences = [
     {
-      title: "React.js Developer",
-      company_name: "Starbucks",
-      icon: starbucks,
+      title: "Junior Front Eend",
+      company_name: "PT. Solusi Untuk Negeri",
+      icon: defauilt,
       iconBg: "#383E56",
-      date: "March 2020 - April 2021",
+      date: "2018 - 2019",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+        "Developing and maintaining web applications using Angular and other related technologies.",
+        "Collaborating with cross-functional teams like UI/UX, Back End, and Product Designer to create high-quality products.",
         "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
       ],
     },
     {
-      title: "React Native Developer",
-      company_name: "Tesla",
-      icon: tesla,
+      title: "Front End Developer(Angular, VueJS)",
+      company_name: "Berau Coal Energy",
+      icon: bce,
       iconBg: "#E6DEDD",
-      date: "Jan 2021 - Feb 2022",
+      date: "2019 - 2021",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
+        "Developing and maintaining web applications using Angular, VueJS and other related technologies.",
         "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
         "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
       ],
     },
     {
-      title: "Web Developer",
-      company_name: "Shopify",
-      icon: shopify,
+      title: "Front End Developer(PHP, NuxtJS)",
+      company_name: "Indodax",
+      icon: indodax,
       iconBg: "#383E56",
-      date: "Jan 2022 - Jan 2023",
+      date: "2021 - current",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
-    },
-    {
-      title: "Full stack Developer",
-      company_name: "Meta",
-      icon: meta,
-      iconBg: "#E6DEDD",
-      date: "Jan 2023 - Present",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
+        "Developing and maintaining web applications using CI, NuxtJS and other related technologies.",
         "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
         "Implementing responsive design and ensuring cross-browser compatibility.",
         "Participating in code reviews and providing constructive feedback to other developers.",
